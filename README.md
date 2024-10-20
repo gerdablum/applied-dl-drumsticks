@@ -1,5 +1,6 @@
 # Applied deep learning project
 Alina Jaud - 12209471
+
 ## Idea and project type
 I want to create an application that can measure the performance of drummers practicing on a drum pad. The application should track sticks on a video where a drummer is playing on a drum pad. The tracked sticks can be used to record the playing and calculate some metrics, for example the stick height on left and right hand, the straightness of the hits or the angle of the hits. These metrics can help the player to improve their drumming.
 For this project I chose the project category “bring your on data”.
