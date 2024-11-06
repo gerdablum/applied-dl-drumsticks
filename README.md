@@ -15,7 +15,7 @@ A major part of the project will be dataset creation. I plan to use a smartphone
 * 11.11 – 1. 12: Create annotations
 * 1.12 – 17.12: Use a pre-trained model and test against a minimal dataset (deadline assignment 2)
 * 18.12.-6.1. Improve quality of dataset, adjust model
-* 7.01-21.01. Build application around model (deadline assignment 2)
+* 7.01-21.01. Build application around model (deadline assignment 3)
 ## References
 [1]	S. Hong, K. Stephen, and T. Kenji, “Virtual Drum System Development using Motion Detection,” IIAI Letters on Informatics and Interdisciplinary Research, vol. 5, p. 1, 2024, doi: 10.52731/liir.v005.263.
 
