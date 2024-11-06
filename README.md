@@ -7,7 +7,7 @@ For this project I chose the project category “bring your on data”.
 ## Background research
 There are several approaches in tracking drumsticks with deep learning technologies. The majority of the methods are built to enable air drumming, which means moving sticks in the air without an actual drumset. Hong et al. [1] propose a framework that can detect drumsticks with markes on the tip using YOLOv8 (todo quelle). Yadid et al. [2] provide a markerless approach with the YOLOv5 model. Both approaches give valuable insights in their dataset creation and network training but have not published their datasets. Since they both focus on air drumming, they did not train their networks on frames of people drumming on an actual drum pad.
 Additional to stick tracking, hand pose tracking can generate valuable metrics for drum performance analytics. Therefore OpenPose [3] and MediaPipe [4] are considered to be used in the application.
-Approach
+## Approach
 A major part of the project will be dataset creation. I plan to use a smartphone camera and a tripod to record videos from different angles. The dataset will then be split into frames and annotated with Roboflow [5] or CVAT [6]. Rotation and brightness change will be applied to reduce the number of necessary samples and introduce robustness. For training, I will use a pre-trained network. In a final application, a platform to upload a video will be provided. Th application can then calculate some easy metrics like stick height.
 ## Schedule
 * Now – 1. 11: Recording videos
