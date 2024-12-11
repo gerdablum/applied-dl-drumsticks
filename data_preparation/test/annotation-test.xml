@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1001951</id>
+      <name>full_stroke_left_side</name>
+      <size>68</size>
+      <mode>interpolation</mode>
+      <overlap>5</overlap>
+      <bugtracker></bugtracker>
+      <created>2024-11-06 09:59:35.487890+00:00</created>
+      <updated>2024-11-06 10:31:46.071988+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>335</stop_frame>
+      <frame_filter>step=5</frame_filter>
+      <segments>
+        <segment>
+          <id>1449237</id>
+          <start>0</start>
+          <stop>67</stop>
+          <url>https://app.cvat.ai/api/jobs/1446780</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>gerd5</username>
+        <email>gerdblum59@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>left_stick</name>
+          <color>#15c90e</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>right_stick</name>
+          <color>#eaaca9</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <original_size>
+        <width>640</width>
+        <height>640</height>
+      </original_size>
+      <source>left_side_fullstroke.mov</source>
+    </task>
+    <dumped>2024-11-06 10:52:42.390711+00:00</dumped>
+  </meta>
+  <image id="0" name="frame_000000" width="640" height="640">
+   <polyline label="left_stick" source="manual" occluded="0" points="95.01,270.19;379.19,341.82" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="178.32,427.46;401.77,362.84" z_order="0">
+    </polyline>
+    <box label="left_stick" source="manual" occluded="0" xtl="98.20" ytl="269.33" xbr="378.49" ybr="341.74" z_order="0">
+    </box>
+    <box label="right_stick" source="manual" occluded="0" xtl="179.17" ytl="361.36" xbr="400.29" ybr="427.54" z_order="0">
+    </box>
+  </image>
+</annotations>

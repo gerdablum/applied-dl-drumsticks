@@ -1,0 +1,12 @@
+# Data
+path: c:/Users/alina/Master-Projects/applied-dl/applied-dl-drumsticks/data
+train: images/train
+val: images/val
+
+# Keypoints
+kpt_shape: [2, 2]
+
+# Classes
+names:
+  0: left_stick
+  1: right_stick

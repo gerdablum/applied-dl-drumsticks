@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>1446780</id>
+      <size>68</size>
+      <mode>interpolation</mode>
+      <overlap>5</overlap>
+      <bugtracker></bugtracker>
+      <created>2024-11-06 09:59:35.487890+00:00</created>
+      <updated>2024-11-06 12:19:44.959667+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>335</stop_frame>
+      <frame_filter>step=5</frame_filter>
+      <segments>
+        <segment>
+          <id>1449237</id>
+          <start>0</start>
+          <stop>67</stop>
+          <url>https://app.cvat.ai/api/jobs/1446780</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>gerd5</username>
+        <email>gerdblum59@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>left_stick</name>
+          <color>#15c90e</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>right_stick</name>
+          <color>#eaaca9</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2024-11-06 12:20:33.321646+00:00</dumped>
+    <original_size>
+      <width>640</width>
+      <height>640</height>
+    </original_size>
+  </meta>
+  <image id="0" name="frame_000000" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="95.01,270.19;379.19,341.82" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="178.32,427.46;401.77,362.84" z_order="0">
+    </polyline>
+    <box label="left_stick" source="manual" occluded="0" xtl="98.20" ytl="269.33" xbr="378.49" ybr="341.74" z_order="0">
+    </box>
+    <box label="right_stick" source="manual" occluded="0" xtl="179.17" ytl="361.36" xbr="400.29" ybr="427.54" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="frame_000005" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="161.97,35.83;349.61,307.56" z_order="0">
+    </polyline>
+    <box label="left_stick" source="manual" occluded="0" xtl="162.82" ytl="34.20" xbr="350.46" ybr="307.48" z_order="0">
+    </box>
+    <box label="right_stick" source="manual" occluded="0" xtl="179.95" ytl="360.43" xbr="411.19" ybr="415.71" z_order="0">
+    </box>
+    <polyline label="right_stick" source="manual" occluded="0" points="181.43,416.57;415.01,362.06" z_order="0">
+    </polyline>
+  </image>
+  <image id="10" name="frame_000010" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="299.78,0.80;336.37,320.02" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="179.10,415.01;425.13,362.06" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="182.29" ytl="361.21" xbr="418.98" ybr="414.15" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="295.96" ytl="0.00" xbr="349.68" ybr="318.38" z_order="0">
+    </box>
+  </image>
+  <image id="15" name="frame_000015" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="288.10,112.14;363.62,414.23" z_order="0">
+    </polyline>
+    <box label="left_stick" source="manual" occluded="0" xtl="286.62" ytl="113.62" xbr="366.81" ybr="417.27" z_order="0">
+    </box>
+    <box label="right_stick" source="manual" occluded="0" xtl="171.40" ytl="361.99" xbr="409.64" ybr="416.49" z_order="0">
+    </box>
+    <polyline label="right_stick" source="manual" occluded="0" points="177.54,411.89;410.34,365.18" z_order="0">
+    </polyline>
+  </image>
+  <image id="20" name="frame_000020" width="640" height="640">
+    <box label="right_stick" source="manual" occluded="0" xtl="168.27" ytl="353.42" xbr="424.43" ybr="418.82" z_order="0">
+    </box>
+    <polyline label="right_stick" source="manual" occluded="0" points="173.65,412.67;421.24,360.51" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="160.41,302.89;439.92,415.79" z_order="0">
+    </polyline>
+    <box label="left_stick" source="manual" occluded="0" xtl="157.37" ytl="298.14" xbr="443.11" ybr="419.60" z_order="0">
+    </box>
+  </image>
+  <image id="25" name="frame_000025" width="640" height="640">
+    <polyline label="right_stick" source="manual" occluded="0" points="170.53,398.66;430.58,364.40" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="169.83" ytl="359.65" xbr="430.66" ybr="404.03" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="164.38" ytl="146.32" xbr="411.97" ybr="365.88" z_order="0">
+    </box>
+    <polyline label="left_stick" source="manual" occluded="0" points="168.20,150.29;411.11,363.62" z_order="0">
+    </polyline>
+  </image>
+  <image id="30" name="frame_000030" width="640" height="640">
+    <box label="left_stick" source="manual" occluded="0" xtl="335.67" ytl="34.98" xbr="359.81" ybr="365.10" z_order="0">
+    </box>
+    <polyline label="right_stick" source="manual" occluded="0" points="160.41,381.53;431.36,368.29" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="337.93,35.83;354.28,363.62" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="160.49" ytl="365.10" xbr="436.10" ybr="389.24" z_order="0">
+    </box>
+  </image>
+  <image id="35" name="frame_000035" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="222.70,111.36;399.44,376.08" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="161.19,385.42;436.81,352.72" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="158.15" ytl="346.41" xbr="439.22" ybr="393.13" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="219.66" ytl="107.39" xbr="404.96" ybr="380.67" z_order="0">
+    </box>
+  </image>
+  <image id="40" name="frame_000040" width="640" height="640">
+    <box label="left_stick" source="manual" occluded="0" xtl="169.05" ytl="177.46" xbr="423.65" ybr="379.89" z_order="0">
+    </box>
+    <polyline label="right_stick" source="manual" occluded="0" points="157.29,371.41;432.14,334.03" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="172.87,183.77;418.90,376.08" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="155.04" ytl="327.73" xbr="434.55" ybr="376.78" z_order="0">
+    </box>
+  </image>
+  <image id="45" name="frame_000045" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="175.20,182.21;427.47,387.76" z_order="0">
+    </polyline>
+    <box label="left_stick" source="manual" occluded="0" xtl="172.94" ytl="177.46" xbr="431.44" ybr="393.91" z_order="0">
+    </box>
+    <box label="right_stick" source="manual" occluded="0" xtl="140.24" ytl="261.55" xbr="402.63" ybr="333.96" z_order="0">
+    </box>
+    <polyline label="right_stick" source="manual" occluded="0" points="144.06,267.08;398.66,328.58" z_order="0">
+    </polyline>
+  </image>
+  <image id="50" name="frame_000050" width="640" height="640">
+    <box label="left_stick" source="manual" occluded="0" xtl="169.83" ytl="193.03" xbr="432.21" ybr="398.58" z_order="0">
+    </box>
+    <polyline label="left_stick" source="manual" occluded="0" points="172.87,197.78;427.47,390.09" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="173.65,135.49;353.50,316.91" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="171.39" ytl="131.52" xbr="361.36" ybr="322.28" z_order="0">
+    </box>
+  </image>
+  <image id="55" name="frame_000055" width="640" height="640">
+    <box label="right_stick" source="manual" occluded="0" xtl="253.14" ytl="72.35" xbr="328.66" ybr="333.96" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="162.04" ytl="210.94" xbr="437.66" ybr="402.47" z_order="0">
+    </box>
+    <polyline label="left_stick" source="manual" occluded="0" points="168.97,216.47;429.80,393.99" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="257.73,76.32;323.91,330.92" z_order="0">
+    </polyline>
+  </image>
+  <image id="60" name="frame_000060" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="161.19,224.25;430.58,395.54" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="217.25,161.97;329.36,378.41" z_order="0">
+    </polyline>
+    <box label="left_stick" source="manual" occluded="0" xtl="156.59" ytl="217.17" xbr="435.33" ybr="404.03" z_order="0">
+    </box>
+    <box label="right_stick" source="manual" occluded="0" xtl="211.87" ytl="158.00" xbr="334.11" ybr="384.56" z_order="0">
+    </box>
+  </image>
+  <image id="65" name="frame_000065" width="640" height="640">
+    <box label="left_stick" source="manual" occluded="0" xtl="150.37" ytl="224.18" xbr="432.99" ybr="400.92" z_order="0">
+    </box>
+    <polyline label="right_stick" source="manual" occluded="0" points="148.73,311.46;393.99,350.38" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="154.96,230.48;426.69,395.54" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="144.92" ytl="305.93" xbr="399.51" ybr="353.42" z_order="0">
+    </box>
+  </image>
+  <image id="70" name="frame_000070" width="640" height="640">
+    <box label="right_stick" source="manual" occluded="0" xtl="168.27" ytl="187.58" xbr="393.29" ybr="352.64" z_order="0">
+    </box>
+    <polyline label="right_stick" source="manual" occluded="0" points="172.87,192.33;390.87,348.83" z_order="0">
+    </polyline>
+    <box label="left_stick" source="manual" occluded="0" xtl="147.25" ytl="226.51" xbr="435.33" ybr="395.47" z_order="0">
+    </box>
+    <polyline label="left_stick" source="manual" occluded="0" points="151.07,233.60;426.69,390.09" z_order="0">
+    </polyline>
+  </image>
+  <image id="75" name="frame_000075" width="640" height="640">
+    <box label="right_stick" source="manual" occluded="0" xtl="215.77" ytl="122.96" xbr="359.03" ybr="354.98" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="141.80" ytl="226.51" xbr="433.77" ybr="395.47" z_order="0">
+    </box>
+    <polyline label="right_stick" source="manual" occluded="0" points="217.25,126.15;353.50,351.16" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="147.95,229.70;427.47,391.65" z_order="0">
+    </polyline>
+  </image>
+  <image id="80" name="frame_000080" width="640" height="640">
+    <polyline label="right_stick" source="manual" occluded="0" points="205.57,135.49;354.28,333.26" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="147.95,225.03;421.24,385.42" z_order="0">
+    </polyline>
+    <box label="left_stick" source="manual" occluded="0" xtl="143.36" ytl="224.18" xbr="429.10" ybr="393.13" z_order="0">
+    </box>
+    <box label="right_stick" source="manual" occluded="0" xtl="201.75" ytl="131.52" xbr="359.03" ybr="340.96" z_order="0">
+    </box>
+  </image>
+  <image id="85" name="frame_000085" width="640" height="640">
+    <box label="right_stick" source="manual" occluded="0" xtl="183.07" ytl="147.87" xbr="370.71" ybr="345.64" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="137.13" ytl="220.28" xbr="430.66" ybr="382.23" z_order="0">
+    </box>
+    <polyline label="right_stick" source="manual" occluded="0" points="191.55,152.62;364.40,342.60" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="140.17,225.81;422.79,378.41" z_order="0">
+    </polyline>
+  </image>
+  <image id="90" name="frame_000090" width="640" height="640">
+    <polyline label="right_stick" source="manual" occluded="0" points="188.44,165.08;375.30,345.71" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="147.95,172.09;408.78,362.06" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="183.07" ytl="157.22" xbr="383.94" ybr="353.42" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="142.58" ytl="167.34" xbr="411.97" ybr="368.99" z_order="0">
+    </box>
+  </image>
+  <image id="95" name="frame_000095" width="640" height="640">
+    <box label="left_stick" source="manual" occluded="0" xtl="203.31" ytl="89.48" xbr="397.18" ybr="362.76" z_order="0">
+    </box>
+    <box label="right_stick" source="manual" occluded="0" xtl="170.61" ytl="170.45" xbr="372.26" ybr="347.97" z_order="0">
+    </box>
+    <polyline label="right_stick" source="manual" occluded="0" points="179.10,175.98;367.51,343.38" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="207.90,96.57;391.65,355.84" z_order="0">
+    </polyline>
+  </image>
+  <image id="100" name="frame_000100" width="640" height="640">
+    <box label="right_stick" source="manual" occluded="0" xtl="169.05" ytl="180.57" xbr="394.06" ybr="365.88" z_order="0">
+    </box>
+    <polyline label="left_stick" source="manual" occluded="0" points="283.43,85.67;355.06,400.21" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="171.31,185.32;384.64,359.73" z_order="0">
+    </polyline>
+    <box label="left_stick" source="manual" occluded="0" xtl="280.39" ytl="80.14" xbr="362.14" ybr="405.59" z_order="0">
+    </box>
+  </image>
+  <image id="105" name="frame_000105" width="640" height="640">
+    <box label="left_stick" source="manual" occluded="0" xtl="143.36" ytl="379.89" xbr="441.56" ybr="449.19" z_order="0">
+    </box>
+    <polyline label="right_stick" source="manual" occluded="0" points="171.31,199.34;370.63,346.49" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="144.06,443.04;434.47,387.76" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="162.04" ytl="193.81" xbr="376.93" ybr="352.64" z_order="0">
+    </box>
+  </image>
+  <image id="110" name="frame_000110" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="161.19,205.57;402.55,384.64" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="163.60" ytl="200.82" xbr="387.84" ybr="347.97" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="159.71" ytl="203.15" xbr="404.19" ybr="388.46" z_order="0">
+    </box>
+    <polyline label="right_stick" source="manual" occluded="0" points="168.20,204.79;380.75,343.38" z_order="0">
+    </polyline>
+  </image>
+  <image id="115" name="frame_000115" width="640" height="640">
+    <box label="right_stick" source="manual" occluded="0" xtl="162.82" ytl="197.70" xbr="375.38" ybr="354.98" z_order="0">
+    </box>
+    <polyline label="right_stick" source="manual" occluded="0" points="168.97,205.57;371.41,348.05" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="204.79,114.47;389.31,360.51" z_order="0">
+    </polyline>
+    <box label="left_stick" source="manual" occluded="0" xtl="200.97" ytl="111.28" xbr="393.29" ybr="364.32" z_order="0">
+    </box>
+  </image>
+  <image id="120" name="frame_000120" width="640" height="640">
+    <polyline label="right_stick" source="manual" occluded="0" points="165.08,203.23;371.41,341.04" z_order="0">
+    </polyline>
+    <box label="left_stick" source="manual" occluded="0" xtl="222.00" ytl="80.92" xbr="383.94" ybr="365.10" z_order="0">
+    </box>
+    <box label="right_stick" source="manual" occluded="0" xtl="161.27" ytl="197.70" xbr="371.48" ybr="344.08" z_order="0">
+    </box>
+    <polyline label="left_stick" source="manual" occluded="0" points="225.81,81.77;376.08,358.17" z_order="0">
+    </polyline>
+  </image>
+  <image id="125" name="frame_000125" width="640" height="640">
+    <box label="right_stick" source="manual" occluded="0" xtl="157.37" ytl="193.03" xbr="388.61" ybr="350.31" z_order="0">
+    </box>
+    <polyline label="left_stick" source="manual" occluded="0" points="209.46,102.01;390.87,358.95" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="165.08,197.00;383.86,345.71" z_order="0">
+    </polyline>
+    <box label="left_stick" source="manual" occluded="0" xtl="204.09" ytl="96.49" xbr="397.96" ybr="363.54" z_order="0">
+    </box>
+  </image>
+  <image id="130" name="frame_000130" width="640" height="640">
+    <polyline label="right_stick" source="manual" occluded="0" points="176.76,160.41;387.76,341.04" z_order="0">
+    </polyline>
+    <box label="left_stick" source="manual" occluded="0" xtl="194.75" ytl="108.17" xbr="401.07" ybr="365.10" z_order="0">
+    </box>
+    <box label="right_stick" source="manual" occluded="0" xtl="172.17" ytl="157.22" xbr="392.51" ybr="344.86" z_order="0">
+    </box>
+    <polyline label="left_stick" source="manual" occluded="0" points="200.12,112.14;395.54,362.84" z_order="0">
+    </polyline>
+  </image>
+  <image id="135" name="frame_000135" width="640" height="640">
+    <box label="right_stick" source="manual" occluded="0" xtl="216.55" ytl="100.38" xbr="369.15" ybr="350.31" z_order="0">
+    </box>
+    <polyline label="left_stick" source="manual" occluded="0" points="197.00,116.03;390.09,366.74" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="220.36,103.57;366.74,344.93" z_order="0">
+    </polyline>
+    <box label="left_stick" source="manual" occluded="0" xtl="191.63" ytl="112.06" xbr="393.29" ybr="368.99" z_order="0">
+    </box>
+  </image>
+  <image id="140" name="frame_000140" width="640" height="640">
+    <box label="right_stick" source="manual" occluded="0" xtl="251.58" ytl="104.27" xbr="334.11" ybr="367.44" z_order="0">
+    </box>
+    <polyline label="left_stick" source="manual" occluded="0" points="190.77,132.38;398.66,373.74" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="256.18,106.69;330.14,362.06" z_order="0">
+    </polyline>
+    <box label="left_stick" source="manual" occluded="0" xtl="187.74" ytl="127.63" xbr="407.30" ybr="376.00" z_order="0">
+    </box>
+  </image>
+  <image id="145" name="frame_000145" width="640" height="640">
+    <box label="right_stick" source="manual" occluded="0" xtl="155.04" ytl="319.16" xbr="398.74" ybr="408.70" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="173.72" ytl="140.87" xbr="407.30" ybr="379.11" z_order="0">
+    </box>
+    <polyline label="left_stick" source="manual" occluded="0" points="178.32,145.62;401.77,375.30" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="156.52,404.89;394.76,324.69" z_order="0">
+    </polyline>
+  </image>
+  <image id="150" name="frame_000150" width="640" height="640">
+    <box label="right_stick" source="manual" occluded="0" xtl="148.81" ytl="203.93" xbr="397.96" ybr="354.98" z_order="0">
+    </box>
+    <polyline label="right_stick" source="manual" occluded="0" points="154.96,208.68;392.43,352.72" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="174.42,154.18;402.55,377.64" z_order="0">
+    </polyline>
+    <box label="left_stick" source="manual" occluded="0" xtl="169.83" ytl="147.87" xbr="405.74" ybr="380.67" z_order="0">
+    </box>
+  </image>
+  <image id="155" name="frame_000155" width="640" height="640">
+    <polyline label="right_stick" source="manual" occluded="0" points="196.22,127.71;365.18,350.38" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="194.75" ytl="123.74" xbr="367.59" ybr="358.87" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="170.61" ytl="154.88" xbr="407.30" ybr="386.12" z_order="0">
+    </box>
+    <polyline label="left_stick" source="manual" occluded="0" points="172.09,158.85;404.11,381.53" z_order="0">
+    </polyline>
+  </image>
+  <image id="160" name="frame_000160" width="640" height="640">
+    <box label="right_stick" source="manual" occluded="0" xtl="228.22" ytl="101.31" xbr="339.56" ybr="343.46" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="167.49" ytl="152.55" xbr="402.63" ybr="383.01" z_order="0">
+    </box>
+    <polyline label="left_stick" source="manual" occluded="0" points="172.09,158.85;401.77,377.64" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="231.26,104.35;335.59,337.15" z_order="0">
+    </polyline>
+  </image>
+  <image id="165" name="frame_000165" width="640" height="640">
+    <polyline label="right_stick" source="manual" occluded="0" points="214.91,118.37;355.84,339.48" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="174.42,147.95;397.10,372.96" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="211.80" ytl="113.69" xbr="358.95" ybr="346.49" z_order="0">
+    </box>
+  </image>
+  <image id="170" name="frame_000170" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="177.54,137.05;391.65,365.96" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="203.23,133.94;364.40,344.93" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="197.80" ytl="131.60" xbr="370.60" ybr="346.49" z_order="0">
+    </box>
+  </image>
+  <image id="175" name="frame_000175" width="640" height="640">
+    <polyline label="right_stick" source="manual" occluded="0" points="196.22,144.06;358.95,341.04" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="188.44,107.46;390.87,360.51" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="193.10" ytl="138.60" xbr="365.10" ybr="346.49" z_order="0">
+    </box>
+  </image>
+  <image id="180" name="frame_000180" width="640" height="640">
+    <polyline label="right_stick" source="manual" occluded="0" points="190.77,154.18;362.84,346.49" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="228.15,78.66;376.86,363.62" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="188.45" ytl="147.16" xbr="369.00" ybr="355.06" z_order="0">
+    </box>
+  </image>
+  <image id="185" name="frame_000185" width="640" height="640">
+    <polyline label="right_stick" source="manual" occluded="0" points="182.99,166.64;350.38,331.70" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="179.11" ytl="155.73" xbr="359.66" ybr="337.10" z_order="0">
+    </box>
+  </image>
+  <image id="190" name="frame_000190" width="640" height="640">
+    <polyline label="right_stick" source="manual" occluded="0" points="182.21,169.75;364.40,343.38" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="149.51,276.42;413.45,423.57" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="175.99" ytl="160.40" xbr="372.90" ybr="346.40" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="145.62" ytl="271.75" xbr="418.90" ybr="426.69" z_order="0">
+    </box>
+  </image>
+  <image id="195" name="frame_000195" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="232.82,118.37;358.17,414.23" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="176.76,179.10;373.74,347.27" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="167.43" ytl="169.74" xbr="379.90" ybr="355.74" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="227.40" ytl="113.70" xbr="365.18" ybr="422.01" z_order="0">
+    </box>
+  </image>
+  <image id="200" name="frame_000200" width="640" height="640">
+    <polyline label="right_stick" source="manual" occluded="0" points="177.54,179.10;355.84,337.15" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="299.00,66.98;334.81,392.43" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="170.54" ytl="174.42" xbr="360.40" ybr="342.50" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="290.47" ytl="60.76" xbr="352.70" ybr="396.30" z_order="0">
+    </box>
+  </image>
+  <image id="205" name="frame_000205" width="640" height="640">
+    <polyline label="right_stick" source="manual" occluded="0" points="176.76,179.10;371.41,346.49" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="242.94,84.11;364.40,379.97" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="170.54" ytl="174.42" xbr="375.20" ybr="352.60" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="237.52" ytl="79.44" xbr="370.60" ybr="386.20" z_order="0">
+    </box>
+  </image>
+  <image id="210" name="frame_000210" width="640" height="640">
+    <polyline label="right_stick" source="manual" occluded="0" points="176.76,179.87;372.96,348.83" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="219.58,107.46;378.41,385.42" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="172.49" ytl="165.85" xbr="377.15" ybr="346.75" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="211.05" ytl="102.02" xbr="384.60" ybr="389.30" z_order="0">
+    </box>
+  </image>
+  <image id="215" name="frame_000215" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="211.80,119.14;387.76,382.31" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="180.65,165.08;365.96,335.59" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="174.44" ytl="157.29" xbr="379.09" ybr="340.90" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="203.26" ytl="111.36" xbr="397.10" ybr="390.90" z_order="0">
+    </box>
+  </image>
+  <image id="220" name="frame_000220" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="208.68,126.93;389.31,386.20" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="211.80,121.48;355.84,338.71" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="205.58" ytl="112.91" xbr="358.80" ybr="354.10" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="201.71" ytl="119.93" xbr="395.54" ybr="399.46" z_order="0">
+    </box>
+  </image>
+  <image id="225" name="frame_000225" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="201.67,133.94;393.21,391.65" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="246.05,119.14;326.25,367.51" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="238.30" ytl="112.91" xbr="334.70" ybr="372.80" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="197.04" ytl="126.94" xbr="397.90" ybr="406.47" z_order="0">
+    </box>
+  </image>
+  <image id="230" name="frame_000230" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="196.22,138.61;392.43,389.31" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="159.63,419.68;363.62,333.26" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="151.88" ytl="326.20" xbr="367.40" ybr="428.86" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="190.00" ytl="130.80" xbr="400.20" ybr="395.60" z_order="0">
+    </box>
+  </image>
+  <image id="235" name="frame_000235" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="190.00,140.94;394.76,385.42" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="158.07,195.45;362.84,357.39" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="155.80" ytl="186.80" xbr="369.70" ybr="364.20" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="181.40" ytl="133.10" xbr="405.70" ybr="393.30" z_order="0">
+    </box>
+  </image>
+  <image id="240" name="frame_000240" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="191.55,144.06;390.09,389.31" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="202.45,126.93;346.49,346.49" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="195.50" ytl="121.40" xbr="352.60" ybr="355.60" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="181.40" ytl="133.10" xbr="397.90" ybr="396.40" z_order="0">
+    </box>
+  </image>
+  <image id="245" name="frame_000245" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="190.77,144.06;389.31,388.54" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="228.92,115.25;332.48,355.84" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="222.00" ytl="105.10" xbr="336.20" ybr="362.60" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="183.47" ytl="128.43" xbr="396.33" ybr="390.93" z_order="0">
+    </box>
+  </image>
+  <image id="250" name="frame_000250" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="191.55,139.39;389.31,386.98" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="199.34,134.72;364.40,353.50" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="195.51" ytl="129.24" xbr="373.60" ybr="358.70" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="185.53" ytl="123.77" xbr="394.77" ybr="385.47" z_order="0">
+    </box>
+  </image>
+  <image id="255" name="frame_000255" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="190.77,123.82;387.76,376.08" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="191.55,149.51;362.84,350.38" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="180.70" ytl="140.90" xbr="369.70" ybr="355.60" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="187.60" ytl="119.10" xbr="393.20" ybr="380.00" z_order="0">
+    </box>
+  </image>
+  <image id="260" name="frame_000260" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="211.80,98.12;383.09,372.19" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="186.88,159.63;358.17,349.61" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="176.00" ytl="147.90" xbr="365.80" ybr="357.20" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="206.30" ytl="94.20" xbr="393.20" ybr="380.00" z_order="0">
+    </box>
+  </image>
+  <image id="265" name="frame_000265" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="249.95,90.34;369.07,385.42" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="183.77,164.30;365.96,348.83" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="172.10" ytl="154.90" xbr="372.80" ybr="357.20" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="244.50" ytl="84.90" xbr="377.60" ybr="395.60" z_order="0">
+    </box>
+  </image>
+  <image id="270" name="frame_000270" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="147.17,260.07;394.76,416.56" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="179.87,165.86;357.39,339.48" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="171.30" ytl="156.50" xbr="366.60" ybr="347.90" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="140.90" ytl="250.70" xbr="401.00" ybr="425.20" z_order="0">
+    </box>
+  </image>
+  <image id="275" name="frame_000275" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="158.85,233.60;408.00,405.66" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="180.65,173.65;372.19,350.38" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="172.90" ytl="163.50" xbr="380.60" ybr="360.40" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="150.26" ytl="228.08" xbr="414.20" ybr="414.30" z_order="0">
+    </box>
+  </image>
+  <image id="280" name="frame_000280" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="224.25,88.78;355.06,372.19" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="184.55,172.87;363.62,344.16" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="178.40" ytl="161.20" xbr="370.50" ybr="351.80" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="216.40" ytl="82.50" xbr="363.60" ybr="378.50" z_order="0">
+    </box>
+  </image>
+  <image id="285" name="frame_000285" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="254.62,76.32;336.37,379.97" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="182.21,174.42;362.84,347.27" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="173.00" ytl="165.10" xbr="370.50" ybr="351.80" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="243.62" ytl="71.64" xbr="344.90" ybr="387.10" z_order="0">
+    </box>
+  </image>
+  <image id="290" name="frame_000290" width="640" height="640">
+    <polyline label="right_stick" source="manual" occluded="0" points="182.21,166.64;365.96,344.93" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="207.12,119.14;368.29,380.75" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="173.80" ytl="156.50" xbr="370.50" ybr="351.80" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="200.80" ytl="114.50" xbr="376.00" ybr="385.50" z_order="0">
+    </box>
+  </image>
+  <image id="295" name="frame_000295" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="191.55,135.49;377.64,384.64" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="195.45,143.28;362.84,348.83" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="190.20" ytl="136.30" xbr="370.50" ybr="351.80" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="186.80" ytl="128.50" xbr="386.90" ybr="392.50" z_order="0">
+    </box>
+  </image>
+  <image id="300" name="frame_000300" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="191.55,138.61;385.42,386.98" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="223.47,120.70;354.28,351.16" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="215.11" ytl="112.16" xbr="360.40" ybr="359.60" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="186.02" ytl="130.84" xbr="393.90" ybr="398.00" z_order="0">
+    </box>
+  </image>
+  <image id="305" name="frame_000305" width="640" height="640">
+    <polyline label="right_stick" source="manual" occluded="0" points="237.49,125.37;337.15,367.51" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="185.32,141.72;386.20,387.76" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="227.57" ytl="116.06" xbr="345.60" ybr="378.30" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="176.68" ytl="135.51" xbr="394.70" ybr="398.80" z_order="0">
+    </box>
+  </image>
+  <image id="310" name="frame_000310" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="186.88,139.39;384.64,386.98" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="140.17,375.30;350.38,344.16" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="139.60" ytl="339.55" xbr="359.61" ybr="383.00" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="179.01" ytl="133.95" xbr="397.04" ybr="397.24" z_order="0">
+    </box>
+  </image>
+  <image id="315" name="frame_000315" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="182.99,145.62;388.54,387.76" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="152.62,214.13;373.74,348.83" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="145.00" ytl="206.40" xbr="383.70" ybr="360.40" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="176.68" ytl="134.73" xbr="394.70" ybr="398.02" z_order="0">
+    </box>
+  </image>
+  <image id="320" name="frame_000320" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="182.21,147.95;391.65,390.09" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="219.58,108.24;353.50,349.61" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="214.30" ytl="104.40" xbr="362.70" ybr="358.10" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="176.68" ytl="142.51" xbr="400.20" ybr="405.81" z_order="0">
+    </box>
+  </image>
+  <image id="325" name="frame_000325" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="177.54,154.18;390.87,385.42" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="255.40,98.12;332.48,351.16" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="246.20" ytl="89.60" xbr="343.20" ybr="357.30" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="167.30" ytl="144.10" xbr="401.00" ybr="392.60" z_order="0">
+    </box>
+  </image>
+  <image id="330" name="frame_000330" width="640" height="640">
+    <polyline label="left_stick" source="manual" occluded="0" points="169.75,147.95;390.09,371.41" z_order="0">
+    </polyline>
+    <polyline label="right_stick" source="manual" occluded="0" points="200.90,150.29;365.96,350.38" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="191.70" ytl="141.80" xbr="370.50" ybr="356.50" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="164.20" ytl="141.00" xbr="396.30" ybr="375.50" z_order="0">
+    </box>
+  </image>
+  <image id="335" name="frame_000335" width="640" height="640">
+    <polyline label="right_stick" source="manual" occluded="0" points="181.43,193.89;370.63,350.38" z_order="0">
+    </polyline>
+    <polyline label="left_stick" source="manual" occluded="0" points="182.21,92.67;383.86,335.59" z_order="0">
+    </polyline>
+    <box label="right_stick" source="manual" occluded="0" xtl="175.35" ytl="181.51" xbr="379.80" ybr="358.80" z_order="0">
+    </box>
+    <box label="left_stick" source="manual" occluded="0" xtl="175.10" ytl="82.61" xbr="388.50" ybr="345.90" z_order="0">
+    </box>
+  </image>
+</annotations>
