@@ -82,7 +82,8 @@ In the next step you can create flipped label files by executing this method in 
 ```
 create_labels(OUTPUT_FOLDER_LABELS, ANNOTATIONS, flip=True)
 ```
-
+### Run Training
+To run a training, the first step is to adapt the config.yaml file. TODO
 ## Performance and Results (for assignment 2)
 ### Data collected so far
 I recorded videos of myself playing some common stick technique exercises and took the first 10 seconds of the video. From that I exported every 5th frame and took it into the training data set. 
