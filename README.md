@@ -7,9 +7,9 @@ Alina Jaud - 12209471
 3. [Planned Approach](#planned-approach)
 4. [Schedule](#schedule)
 5. [Usage Documentation](#usage-documentation)
-6. [Code Documentation](#code-documentation)
-7. [Performance and Results](#performance-and-results-for-assignment-2)
-7. [References](#references)
+6. [Performance and Results](#performance-and-results-for-assignment-2)
+7. [Outlook](#outlook)
+8. [References](#references)
 ## Idea and Project Type
 I want to create an application that can measure the performance of drummers practicing on a drum pad. The application should track sticks on a video where a drummer is playing on a drum pad. The tracked sticks can be used to record the playing and calculate some metrics, for example the stick height on left and right hand, the straightness of the hits or the angle of the hits. These metrics can help the player to improve their drumming.
 For this project I chose the project category “bring your on data”.
@@ -36,10 +36,76 @@ A major part of the project will be dataset creation. I plan to use a smartphone
 * Data optimization (augmentation and gathering more data): 5h
 * Documentation 2h
 ## Usage Documentation
+### Installation
+1. Create conda environment by running `conda env create -f environment.yaml -n <your env name>` inside the projects folder
+2. Create the training data folder. It MUST have the following structure:
+```
+data/
+    images/
+        train/
+        val/
+    labels/
+        train/
+        val/
+```
+The actual training images belong into the images/train folder, whereas for each image a annotation text file belongs into the labels/train folder. Image and label file must have the same file name.
+These files will be used by the YOLO framework during training.
+The images/val and respectively lables/val folders contain the data that is only used for validation, following the same naming conditions as the files in the train folders.
 
-## Code Documentation
+### Image Labeling
+Images are labeled using [CVAT](https://www.cvat.ai/). There are two classes ``left_stick`` and ``right_stick``. For now each stick in the image is labeled with a bounding box and two keypoints (for stick tip and bottom). 
+Each image has a labeling file, its naming conventions are `[image_name].txt`.
+Below is an example content of this labeling file:
+```
+0 0.371875 0.4765625 0.4375 0.1125 0.14845312500000002 0.422171875 0.592484375 0.53409375 
+1 0.45234375 0.615625 0.3453125 0.103125 0.278625 0.6679062499999999 0.627765625 0.5669375 
+```
+Each row represents one detection, the first digit is the class label (0 -left stick, 1 - right stick).
+The following next 4 values represent the bounding box and the last two values are the keypoints for stick tip and stick bottom.
+The next section describes how to automatically create such a labeling file.
+### Data preparation
+In order to train the model you need to fill it with data. 
+It is your responsibility to create the data and annotate it, as the training data set is not provided currently. However, if you annotated your data with CVAT, there is a script that creates the correct label files out of the CVAT annotation xml file. 
+In CVAT, export your annotation in the format "CVAT for video 1.1".
+Simply excute ``data_preparation/data_preparation_script.py``. Change the path to the correct locations of your annotation file and specify an output folder befor running the script.
+You can adapt the script to produce flipped images (see code documentation).
+Then simply copy the images and label files to the correct location inside the data folder.
+
+
+#### Data augmentation
+YOLO framework provides built in data augmentation, however, for this use case, images, class labels and keypoints are flipped manually. 
+To flip images, you execute the flip image method the the data preparation script like this:
+```
+flip_images(INPUT_FOLDER, OUTPUT_FOLDER)
+```
+In the next step you can create flipped label files by executing this method in the script:
+```
+create_labels(OUTPUT_FOLDER_LABELS, ANNOTATIONS, flip=True)
+```
 
 ## Performance and Results (for assignment 2)
+### Data collected so far
+I recorded videos of myself playing some common stick technique exercises and took the first 10 seconds of the video. From that I exported every 5th frame and took it into the training data set. 
+In total I manually created data annotations for 68 video frames. By applying the flipping annotatins script, I now have 136 labelled images in my training data set. 
+### Performance metric
+For measuring the performance I chose the mean average precision (mAP), which is calculated based on Intersection over Unit (IoU) metric, that calculated accuracy of bounding boxes.
+The mAP metric calculates the mean of the average precision values across all classes and/or IoU  thresholds. It provides a holistic evaluation of a model's detection accuracy.
+### Performance measurements
+| Run No. | Flipped Images | mAP   | Epochs |
+|-----|----------------|-------|--------|
+| 6   | No             | TODO  | 5     |
+| 4   | No             | TODO | 5     |
+| 9   | Yes            |  0.976  | 20     |
+
+![results](runs/pose/train/val_batch0_pred.jpg)
+
+(Visual results for run no. 9)
+
+
+## Outlook
+My plan until the next assignment deadline is to create more training data with more variations in the images and play around with hyper parameters and the data augmentations provided by the YOLO framework.
+Then the plan is to create a simple web page where one can upload a video of itself drumming, and the webside provides a video with tracked stick tips and optionally provides an average stick height metric for left and right hand, as a usecase on how this AI can help drummers in analyzing their drumming performance.
+
 ## References
 [1]	S. Hong, K. Stephen, and T. Kenji, “Virtual Drum System Development using Motion Detection,” IIAI Letters on Informatics and Interdisciplinary Research, vol. 5, p. 1, 2024, doi: 10.52731/liir.v005.263.
 

@@ -5,11 +5,11 @@ trained_model_path = "C:/Users/alina/Master-Projects/applied-dl/applied-dl-drums
 
 model = YOLO('yolov8n-pose.pt') #load a pretrained model
 
-#model.train(data=data_path, epochs=5, imgsz=640, max_det=2)
+model.train(data=data_path, epochs=20, imgsz=640, max_det=2)
 
 # metrics
 # mAP: mean average precision with a certain IoU (intersection over unit)
-model = YOLO(trained_model_path)
-metrics = model.val(data=data_path,  imgsz=640, max_det=2) 
+#model = YOLO(trained_model_path)
+#metrics = model.val(data=data_path,  imgsz=640, max_det=2) 
 
-print(metrics.box.maps)
+#print(metrics.box.maps)
