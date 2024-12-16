@@ -1,7 +1,12 @@
 import pandas as pd
+from ultralytics import YOLO
 
-run_no = 8
+run_no = 9
+data_path = "config.yaml"
+MODEL_PATH = f"runs/pose/train{run_no}/weights/best.pt"
 
-RESULTS_PATH = "C:/Users/alina/Master-Projects/applied-dl/applied-dl-drumsticks/runs/pose/train"+ run_no
+# metrics
+model = YOLO(MODEL_PATH)
+metrics = model.val(data=data_path,  imgsz=640, max_det=2) 
 
-data = pd.read_csv(RESULTS_PATH + "")
+print(metrics.box.maps)

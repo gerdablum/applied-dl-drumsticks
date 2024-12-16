@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
-data_path = "C:/Users/alina/Master-Projects/applied-dl/applied-dl-drumsticks/config.yaml"
-trained_model_path = "C:/Users/alina/Master-Projects/applied-dl/applied-dl-drumsticks/models/best-11-12.pt"
+data_path = "config.yaml"
+trained_model_path = "models/best-11-12.pt"
 
 model = YOLO('yolov8n-pose.pt') #load a pretrained model
 
